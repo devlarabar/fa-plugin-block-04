@@ -16,9 +16,12 @@ const Save = (props) => {
         },
     } = props;
 
-    const blockProps = useBlockProps.save();
+    const blockProps = useBlockProps.save({
+        className: "fa-04-block"
+    });
+
     return (
-        <div class="fa-04-block">
+        <div {...blockProps}>
             <RichText.Content
                 tagName="h2"
                 value={header}
@@ -31,7 +34,7 @@ const Save = (props) => {
             </div>
             {hasButton &&
                 <div className="fa-04-block-button-container">
-                    <a href={isInternalLink ? `/${buttonURL}` : buttonURL} target={isInternalLink ? "_self" : "_blank"}>
+                    <a href={isInternalLink ? `/${buttonURL}` : buttonURL} target={isInternalLink ? "_self" : "_blank"} rel="noopener">
                         <button className="fa-media-emphasis-block-btn wp-block-button__link wp-element-button">
                             {buttonText ? buttonText + " →" : "Read More →"}
                         </button>

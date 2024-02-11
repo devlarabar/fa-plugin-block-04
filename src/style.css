@@ -1,9 +1,10 @@
-.fa-04-block {
+.fa-04-block,
+.entry-content .fa-04-block {
     background-color: var(--accent1);
     border-radius: var(--border-radius-lg);
     padding: 5rem 7rem;
     color: #000000;
-    margin: 0;
+    margin: 0 auto;
     overflow: hidden;
 }
 
