@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "femart/custom-block-04",
+  "version": "0.1.0",
+  "title": "FemArt Custom Block 04",
+  "category": "design",
+  "icon": "hammer",
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "hasButton": {
+      "type": "boolean"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonURL": {
+      "type": "string"
+    },
+    "isInternalLink": {
+      "type": "boolean"
+    }
+  },
+  "textdomain": "femart-custom-block-04",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "keywords": [
+    "04",
+    "FemArt",
+    "Emphasis"
+  ]
+}

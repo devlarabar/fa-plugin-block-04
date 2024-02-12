@@ -1,0 +1,45 @@
+.fa-04-block {
+    background-color: var(--accent1);
+    border-radius: var(--border-radius-lg);
+    padding: 5rem 7rem;
+    color: #000000;
+    margin: 0;
+    overflow: hidden;
+}
+
+.fa-04-block h2 {
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.fa-04-block h2::after {
+    content: "";
+    height: 6px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: var(--primary);
+    position: absolute;
+    left: 0;
+    bottom: -1.5rem;
+}
+
+.fa-04-content {
+    margin-top: 2rem;
+}
+
+.fa-04-block-button-container a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fa-04-block-button-container button {
+    width: fit-content;
+}
