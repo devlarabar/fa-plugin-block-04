@@ -44,3 +44,11 @@
 .fa-04-block-button-container button {
     width: fit-content;
 }
+
+.fa-04-block a {
+    color: var(--primary);
+}
+
+.fa-04-block a:hover {
+    color: var(--accent2);
+}
