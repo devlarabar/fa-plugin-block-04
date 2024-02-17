@@ -1,3 +1,9 @@
+.fa-04-block-container {
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+}
+
 .fa-04-block,
 .entry-content .fa-04-block {
     background-color: var(--accent1);
@@ -51,4 +57,20 @@
 
 .fa-04-block a:hover {
     color: var(--accent2);
+}
+
+@media all and (max-width: 800px) {
+
+    .fa-04-block,
+    .entry-content .fa-04-block {
+        padding: 4rem 5rem;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    .fa-04-block,
+    .entry-content .fa-04-block {
+        padding: 3rem 3rem;
+    }
 }
