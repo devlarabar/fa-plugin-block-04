@@ -64,7 +64,7 @@ const Edit = (props) => {
             </div>
             {hasButton &&
                 <div className="fa-emphasis-block-button-container">
-                    <button className="fa-media-emphasis-block-btn wp-block-button__link wp-element-button">
+                    <button className="fa-media-emphasis-block-btn fa-media-emphasis-block-btn-edit wp-block-button__link wp-element-button">
                         {buttonText ? buttonText + " →" : "Read More →"}
                     </button>
                 </div>

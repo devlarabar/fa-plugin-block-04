@@ -60,6 +60,11 @@
     color: var(--accent2);
 }
 
+.fa-media-emphasis-block-btn-edit {
+    /* Not currently behaving as expected; can fix later, not critical */
+    width: fit-content;
+}
+
 @media all and (max-width: 800px) {
 
     .fa-04-block,
